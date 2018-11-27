@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<img src=C:\xampp\htdocs\Personal Project\The Chess Life(140).jpg>
+<title> The Amazing Art of Chess </title>.
+<body>
+<h1>The Amazing Art of Chess</h1>
+<h2>Enter your Credentials:</h2>
+
+
+        
+    <form action="./Includes/BackendCreate Account.php" method="POST" >
+
+<fieldset> <legend> Personal Details</legend>
+   <p> Username</p>
+    <input type="text" name="Username"><br/> 
+   <p> Firstname</p>
+    <input type="text" name="Firstname"><br/> 
+    <p>Lastname</p>
+     <input type="text" name="Lastname"><br/>
+    <p>Surname</p>
+     <input type="text" name="Surname"><br/> 
+</fieldset>
+        
+<p>What is your gender?</p>
+  <select name="gender">  
+    <option value="Female">Female</option>
+        <option value="Male">Male</option>  
+          <option value="Prefer not to say">Prefer not to say</option> 
+           </select>
+<p>Email</p> 
+     <input type ="email"  name="email"><br/>
+<p> Phone Number</p>
+     <input type ="tel" name="phone_number"><br/>
+<p>Address</p>  
+     <input type ="text" name="address"><br/>
+
+
+        	
+    <p>Password:</p>
+    <input type="password" name="pass"><br/>
+	<p>Confirm Password:</p>
+  <input type="password" name="pass2"><br/><br />
+	
+<input type="submit" name="Submit"  value="Submit">
+</form>
+</body>
+</html>
